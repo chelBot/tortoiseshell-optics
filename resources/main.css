@@ -1,0 +1,132 @@
+body {
+    font-size: 18px;
+    font-family: Helvetica, sans-serif;
+}
+
+.container {
+    width: 960px;
+    margin: auto;
+}
+
+.banner {
+    height: 31rem;
+    background: url("images/glasses-bg.png");
+    background-size: cover;
+    padding-top: 2rem;
+}
+
+header {
+    background-color: cadetblue;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    padding: 1rem 2rem 1rem 0;
+}
+
+.logo img {
+    height: 1.5rem;
+    padding-left: 2rem;
+    padding-right: 1rem;
+}
+
+header li {
+    display: inline;
+    padding: 1rem 2rem 0 1rem;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.banner-box {
+    background-color: white;
+    display: inline-block;
+    padding: 1.5rem 5rem;
+    font-size: 2rem;
+    position: relative;
+    top: 10rem;
+    left: 30rem;
+}
+
+section.container {
+    /*height: 8rem;*/
+    display: flex;
+    justify-content: center;
+}
+
+section img {
+    height: 3rem;
+}
+
+#exam-logo {
+    height: 4.5rem;
+}
+
+#exam p {
+    margin-top: 1.5rem;
+}
+
+.section-1 {
+    text-align: center;
+}
+
+section .col {
+    margin: 3rem 6rem;
+}
+
+.section-1 p {
+    margin-top: 3rem;
+}
+
+
+/*.section-1{
+    height: 8rem;
+}*/
+
+.section-2 .col {
+    margin-right: 5%;
+    width: 35%;
+}
+
+.section-2 h3 {
+    background-color: cadetblue;
+    color: white;
+    padding: 0.5rem 1.25rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+footer {
+    background-color: azure;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    /*margin-top: 4rem;*/
+}
+
+footer .logo img {
+    padding-left: 3rem;
+    padding-right: 1rem;
+}
+
+@media only screen and (max-width: 1024px) {
+    .container {
+        width: 100%;
+    }
+    .banner {
+        padding-top: 0;
+        font-size: 1.33rem;
+        background-position: top;
+    }
+    .banner-box {
+        padding: 0.75rem 4rem;
+        /*margin-right: 2rem;*/
+    }
+}
+
+@media only screen and (max-width: 470px) {}
